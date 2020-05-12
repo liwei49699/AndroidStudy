@@ -1,5 +1,6 @@
 package com.liwei.androidstudy;
 
+import com.liwei.androidstudy.structure.linear.ArrayListTest;
 import com.liwei.androidstudy.structure.linear.ArrayTest;
 import com.liwei.androidstudy.structure.linear.StackTest;
 import com.liwei.androidstudy.structure.tree.TreeMapTest;
@@ -33,7 +34,7 @@ public class ExampleUnitJavaTest {
 //        System.out.println(arrayList);
 
 //        StackTest.test();
-        ArrayTest.test();
+        ArrayListTest.test();
 
     }
 }

@@ -25,6 +25,7 @@ public class ArrayListTest {
 
         //超出长度时会报数组下标越界异常
         Integer integer1 = arrayList.get(0);
+//        arrayList.get(-1);
 
     }
 

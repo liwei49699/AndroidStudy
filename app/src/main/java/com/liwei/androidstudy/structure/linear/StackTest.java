@@ -16,7 +16,7 @@ public class StackTest {
         Integer peek = stack.peek();
         //获取栈顶部元素 且从堆栈中移除 为empty报EmptyStackException
         Integer pop = stack.pop();
-        System.out.println(stack);
+        System.out.println(stack.toString());
         //获取元素在栈中的位置 不同于其它索引 需从1开始 没有返回-1
         int search = stack.search(1);
     }
