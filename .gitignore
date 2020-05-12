@@ -1,0 +1,12 @@
+# android项目忽略文件
+.gradle
+.idea
+/build
+*.iml
+/local.properties
+
+# 平台忽略文件
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
